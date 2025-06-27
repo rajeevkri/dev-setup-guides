@@ -123,6 +123,11 @@ brew install --cask mongodb-compass
 ### 🧩 Connect Using:
 
 ```
+mongodb://localhost:27017/
+```
+or
+
+```
 mongodb://localhost:27017/?replicaSet=rs0
 ```
 
