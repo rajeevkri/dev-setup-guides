@@ -110,6 +110,26 @@ rs0 [direct: primary] test>
 
 ---
 
+## 🖥️ Optional: Install MongoDB Compass (GUI Client)
+
+MongoDB Compass is the official GUI client for MongoDB. It's useful for viewing data, schema, indexes, and running ad-hoc queries.
+
+### 🔧 Install via Homebrew:
+
+```bash
+brew install --cask mongodb-compass
+```
+
+### 🧩 Connect Using:
+
+```
+mongodb://localhost:27017/?replicaSet=rs0
+```
+
+Then explore your collections, documents, and indexes visually.
+
+---
+
 ## Optional: Automate with Shell Script
 
-You can wrap the setup into a script for repeatability. Let me know if you want a `setup-mongo-replset.sh` version!
+You can wrap the setup into a script for repeatability. 
